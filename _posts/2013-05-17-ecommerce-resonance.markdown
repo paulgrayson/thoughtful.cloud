@@ -13,8 +13,7 @@ I’ve heard variations on this theme at a few companies. Often such statements 
 is low therefore the website isn’t good, it isn’t fit for purpose.
 
 At a high level such statements seem self-evident. However, they miss a fundamental truth about conversion optimisation: Conversion Optimisation
-is not all about website UX. As I mentioned in my previous [post on ecommerce](/blog/2013/05/15/ecommerce-get-the-right-products-to-the-top/):
-
+is not all about website UX. As I mentioned in my previous [post on ecommerce](/2013/05/15/ecommerce-get-the-right-products-to-the-top/)
 > Conversion is a measure of how well our site and supply meets the needs of the users that our marketing attracts.
 
 I’ve highlighted the 3 components of conversion: site, supply and marketing. These 3 components need to be aligned so that they resonate
@@ -46,5 +45,5 @@ The length of the purchase cycle, the transition from “early” to “ready”
 
 Conversion is not just about site design.
 
-> Read my previous post: [Ecommerce: Get the “right” products to the top](/blog/2013/05/15/ecommerce-get-the-right-products-to-the-top/)
+> Read my previous post: [Ecommerce: Get the “right” products to the top](/2013/05/15/ecommerce-get-the-right-products-to-the-top/)
 
