@@ -1,9 +1,30 @@
+$blueberry: rgba(67, 146, 241, 1);
+$glitter: rgba(236, 232, 239, 1);
+$russian_violet: rgba(47, 24, 71, 1);
+$topaz: rgba(255, 210, 117, 1);
+$vermilion: rgba(220, 73, 58, 1);
+
+
 body {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Assistant', sans-serif;
+  font-size: 16pt;
+  line-height: 1.6;
 }
 
 a {
   color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  text-transform: none;
+  font-weight: 400;
+  margin: 0;
+  padding: 3px 0 6px 0;
 }
 
 .wrapper {
@@ -11,14 +32,27 @@ a {
   max-width: 1200px;
   display: grid;
   grid-gap: 9px;
-  grid-template-columns: 300px auto;
-  grid-template-areas: "sidebar nav"
-                       "sidebar content"
-                       "sidebar footer";
+	grid-template-columns: auto 300px;
+  grid-template-areas: "header sidebar"
+                       "nav sidebar"
+                       "content sidebar"
+                       "footer sidebar";
 }
 
 nav {
   grid-area: nav;
+}
+
+.header {
+  font-size: 46pt;
+}
+
+.logo {
+  color: #2D3142;
+}
+
+.content, nav, .sidebar, .header {
+  padding: 9px;
 }
 
 nav a {
@@ -27,7 +61,8 @@ nav a {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: green;
+  padding-left: 9px;
+  border-left: 1px solid #eee;
 }
 
 .current {
@@ -35,12 +70,21 @@ nav a {
   text-decoration: none;
 }
 
-.post-items {
-  display: grid;
-  row-gap: 9px;
+.post-item {
 }
 
 .post-item {
-
+  border-top: 1px solid #eee;
+  padding-bottom: 36px;
 }
 
+.bullet {
+	width: 20px;
+	height: 20px;
+	background-color: $topaz;
+}
+
+.post-date {
+  font-size: 12pt;
+  color: gray;
+}

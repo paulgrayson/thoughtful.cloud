@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Paul's thoughtful.cloud
-my_number: 43
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
-<p>{{ page.my_number }}</p>
-<div><a href="about/">About Paul's thoughtful.cloud</a></div>
-
 <div class="post-items">
-	<h2>Latest posts</h2>
 	{% for post in site.posts %}
 		<div class="post-item">
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h2 class="post-item-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<div class="post-date">{{ post.date | date: '%B %d, %Y' }}</div>
 			<p>{{ post.excerpt }}</p>
+
+			<div class="post-item-link">
+				<span class="bullet">&nbsp;</span>
+				<a href="{{ post.url }}">Read "{{ post.title }}"</a>
+			</div>
 		</div>
 	{% endfor %}
 	</ul>
