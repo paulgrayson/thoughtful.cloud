@@ -4,11 +4,22 @@ $russian_violet: rgba(47, 24, 71, 1);
 $topaz: rgba(255, 210, 117, 1);
 $vermilion: rgba(220, 73, 58, 1);
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+
 
 body {
   font-family: 'Assistant', sans-serif;
-  font-size: 16pt;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 a {
@@ -20,6 +31,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.header {
+	font-size: 2.6em;
+}
+
 h1, h2, h3 {
   text-transform: none;
   font-weight: 400;
@@ -27,7 +42,12 @@ h1, h2, h3 {
   padding: 3px 0 6px 0;
 }
 
+h1 {
+	font-size: 2.0em;
+}
+
 .wrapper {
+	font-size: 1.4em;
   margin: auto;
   max-width: 1200px;
   display: grid;
@@ -44,7 +64,6 @@ nav {
 }
 
 .header {
-  font-size: 46pt;
 }
 
 .logo {
@@ -85,6 +104,27 @@ nav a {
 }
 
 .post-date {
-  font-size: 12pt;
   color: gray;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+ .wrapper {
+		margin: auto;
+		max-width: auto;
+		display: grid;
+		grid-gap: 3px;
+		grid-template-columns: auto;
+		grid-template-areas: "header"
+												 "nav"
+												 "content"
+												 "footer"
+												 "sidebar";
+	}
+	.header {
+		font-size: 2.0em;
+	}
 }
