@@ -45,7 +45,7 @@ a feature may deliver a goal or contribute towards it. The tree gives you a mech
 understand, track and communicate how the team/s are attempting to explore the problems, try
 solutions and ultimately how these contribute towards the goal.
 
-<img alt="Goal driven management diagram" src="/images/goal-driven-mgt-diagram.png" style="width: 95%"/>
+<img alt="Goal driven management diagram" src="/assets/goal-driven-mgt-diagram.png" style="width: 95%"/>
 
 Prioritise the nodes below the root, based on which you think are most likely to make progress
 towards your goal. Start work on the highest priority node. If you’ve multiple teams, teams can
